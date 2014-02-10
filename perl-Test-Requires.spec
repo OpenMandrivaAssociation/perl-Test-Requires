@@ -23,14 +23,14 @@ If this fails rather than failing tests this *skips all tests*.
 %setup -qn %{modname}-%{modver}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-%make
+%__perl Build.PL installdirs=vendor
+./Build
 
 %check
-%make test
+./Build test
 
 %install
-%makeinstall_std
+./Build install destdir=%{buildroot}
 
 %files
 %doc README META.yml Changes

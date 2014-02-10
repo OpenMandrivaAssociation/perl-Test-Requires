@@ -1,2 +1,4 @@
+removed_sources:
+  Test-Requires-0.06.tar.gz: 5a7b580fbc6c1e8c6493ceeffc5645ab08f3afd5
 sources:
-  "Test-Requires-0.06.tar.gz": 5a7b580fbc6c1e8c6493ceeffc5645ab08f3afd5
+  Test-Requires-0.07.tar.gz: aaf906f376306c855472aef7731ad4837eb57d20

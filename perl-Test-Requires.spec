@@ -1,14 +1,14 @@
 %define modname	Test-Requires
-%define modver	0.06
+%define modver 0.07
 
 Summary:	Checks to see if the module can be loaded
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Requires-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Test::More)
@@ -36,4 +36,5 @@ If this fails rather than failing tests this *skips all tests*.
 %doc README META.yml Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
 

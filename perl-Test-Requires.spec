@@ -34,7 +34,7 @@ If this fails rather than failing tests this *skips all tests*.
 ./Build install destdir=%{buildroot}
 
 %files
-%doc README META.yml Changes
+%doc  META.yml Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
 

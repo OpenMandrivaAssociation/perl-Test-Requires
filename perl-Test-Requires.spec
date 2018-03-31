@@ -1,10 +1,10 @@
 %define modname	Test-Requires
-%define modver 0.08
+%define modver 0.10
 
 Summary:	Checks to see if the module can be loaded
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}

@@ -1,10 +1,10 @@
 %define modname	Test-Requires
-%define modver 0.10
+%define modver 0.11
 
 Summary:	Checks to see if the module can be loaded
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::Requires
@@ -21,7 +21,7 @@ Test::Requires checks to see if the module can be loaded.
 If this fails rather than failing tests this *skips all tests*.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor

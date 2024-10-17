@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::Requires
+Url:		https://metacpan.org/pod/Test::Requires
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(ExtUtils::MakeMaker)
